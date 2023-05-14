@@ -1,0 +1,66 @@
+/*  Main CSS  */
+
+.main{
+    background-color: rgb(32, 32, 48);
+}
+
+.main__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    background-color: #141414;
+}
+
+.main__content h1{
+    font-size: 4rem;
+    color: rgb(58, 145, 226);
+}
+
+.main__content h2{
+    font-size: 3rem;
+    color: #ffd000;
+}
+
+.main__content p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.main__btn{
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f77062 0%,#fe5196 100%);
+    padding: 10px 30px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    transition: all 0.3s;
+    outline: none;
+    font-weight: 300;
+}
+
+.main__btn a{
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+}
+
+.main__img-container{
+    text-align: center;
+}
+
+#main_img{
+    max-height: 80%;
+    max-width: 80%;
+}
