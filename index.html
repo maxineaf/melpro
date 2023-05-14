@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MELPRO</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles/pages/main.css">
+    <link rel="stylesheet" href="styles/components/button.css">
+    <link rel="stylesheet" href="styles/components/navbar.css">
+    <link rel="stylesheet" href="styles/components/responsive.css">
+    <link rel="stylesheet" href="styles/pages/services.css">
+    <link rel="stylesheet" href="/styles/components/footer.css">
 </head>
 <body>
-    <!-- NAVİGASYON BARI-->
+
+    <!-- NAVBAR -->
+    
     <nav class="navbar">
         <div class="navbar_container">
             <img src="/images/jupiter.png" alt="logo" id="navbar_logo">
 
             <ul class="navbar_menu">
                 <li class="navbar_item">
-                    <a href="#" class="navbar_links">Home</a>
+                    <a href="#" class="navbar_links">Anasayfa</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="/tech.html" class="navbar_links">Tech</a>
+                    <a href="/tech.html" class="navbar_links">Teknoloji</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#" class="navbar_links">Products</a>
+                    <a href="#" class="navbar_links">Ürünlerimiz</a>
                 </li>
                 <li class="navbar_button">
-                    <a href="#" class="button">Sign Up</a>
+                    <a href="#" class="button">Kayıt Ol</a>
                 </li>
             </ul> 
         </div>
     </nav>
 
-    <!-- SAYFA İÇERİĞİ -->
+    <!-- MAIN PAGE -->
 
     <div class="main">
         <div class="main__container">
@@ -41,16 +48,67 @@
                 <button class="main__btn"><a href="/">Şimdi Başlayın</a></button>
             </div>
             <div class="main__img-container">
-                <img src="/images/planet1.jpg" alt="planet" id="main_img"> 
+                <img src="/images/planet1.svg" alt="planet" id="main_img"> 
             </div>
         </div>
     </div>
 
+    <!-- SERVICES -->
 
-    
+    <div class="services">
+        <h1>Olayımız ne?</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Tecrübemizi Görün</h2>
+                <p>Yapay zeka tabanlı teknoloji</p>
+                <button>Başlayın</button>
+            </div>
+            <div class="services__card">
+                <h2>Hazır mısınız?</h2>
+                <p>Kontrolü elinize alın</p>
+                <button>Başlayın</button>
+            </div>
+        </div>
+    </div>
 
+    <!-- FOOT ;) ER-->
 
-
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links--wrapper">
+                <div class="footer__links--items">
+                    <h2>Hakkımızda</h2>
+                    <a href="#">Nasıl çalışır?</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Yatırımlar</a>
+                    <a href="#">Kullanım hakları</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>İletişim</h2>
+                    <a href="#">Nasıl çalışır?</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Yatırımlar</a>
+                    <a href="#">Kullanım hakları</a>
+                </div>
+            </div>
+            <div class="footer__links--wrapper">
+                <div class="footer__links--items">
+                    <h2>Videolar</h2>
+                    <a href="#">Nasıl çalışır?</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Yatırımlar</a>
+                    <a href="#">Kullanım hakları</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Sosyal Medya</h2>
+                    <a href="#">Nasıl çalışır?</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Yatırımlar</a>
+                    <a href="#">Kullanım hakları</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="app.js"></script>

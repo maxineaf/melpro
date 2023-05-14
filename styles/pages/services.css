@@ -1,0 +1,90 @@
+/* SERVISLERIMIZ CSS*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.services{
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.services h1{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.services__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services__card{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17,17,17,0.6) 100%
+    ),
+    url('/images/card1.jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.services__card:nth-child(2){
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17,17,17,0.6) 100%
+    ),
+    url('/images/card2.jpg');
+}
+
+.services h2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.services__card p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.services__card button{
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: #ffd000;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.services__card:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+}
+
+
+
+
